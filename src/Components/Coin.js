@@ -2,9 +2,6 @@ import React from 'react'
 
 const Coin = (props) => {
 
-
-
-
     return (
         <div className='coin-container'>
             <div className='coin-row'>
@@ -14,14 +11,10 @@ const Coin = (props) => {
                 <div className= 'coin'>
                 <p className='coin-symbol'>{props.coin.symbol}</p>
             <p className='coin-price'>${props.coin.current_price}</p>
+            <p>{props.coin.price_change_percentage_24h.toFixed(2)}%</p>
             <p className='coin-volume'>${props.coin.total_volume.toLocaleString()}</p>
             <p className='coin-cap'>${props.coin.market_cap.toLocaleString()}</p>
                 </div>
-
-
-
-
-
 
             </div>
         </div>
