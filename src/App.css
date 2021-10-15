@@ -9,18 +9,20 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  max-width: 100%;
 }
 
 .form-input {
   width: 350px;
   height: 30px;
   border-radius: 5px;
-  background-color: steelblue;
+  background-color: white;
   padding: 5%;
+  margin-top: 20%;
 }
 
 .form-input::placeholder {
-  color: white;
+  color: black;
 }
 
 .coin-container {
@@ -71,4 +73,47 @@
 
 .coin-cap {
   width: 150px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 2px solid white;
+  width: 900px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-left: 33%;
+  text-align: right;
+}
+
+.market-name {
+  font-size: 20px;
+}
+
+.market-price {
+  font-size: 20px;
+}
+
+.market-percent {
+  font-size: 20px;
+}
+
+.market-vol {
+  font-size: 20px;
+}
+
+.market-cap {
+  font-size: 20px;
 }

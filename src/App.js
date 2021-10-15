@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios'
 import SearchBar from './Components/SearchBar';
 import CoinList from './Components/CoinList';
+import CoinInfo from './Components/CoinInfo'
 
 
 const App = () => {
@@ -22,8 +23,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <h1>Today's Cryptocurrency Prices by Market Cap</h1>
       <SearchBar />
+      <CoinInfo />
       <CoinList coins={coins}/>
     </div>
   );
