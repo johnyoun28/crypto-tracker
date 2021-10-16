@@ -19,6 +19,7 @@
   background-color: white;
   padding: 5%;
   margin-top: 20%;
+  color: black;
 }
 
 .form-input::placeholder {
