@@ -4,7 +4,10 @@ const CoinInfo = () => {
     return (
         <div className='info-container'>
             <div className='info-row'>
+                <p className='market-rank'>#</p>
                 <p className='market-name'>Name</p>
+
+
 
                 <div className='info'>
                     <p className='market-price'>Price</p>

@@ -5,6 +5,7 @@ const Coin = ({coin}) => {
     return (
         <div className='coin-container'>
             <div className='coin-row'>
+            <p className='coin-rank'>{coin.market_cap_rank}</p>
                 <img src={coin.image} alt='crypto'/>
                 <h1>{coin.name}</h1> 
 

@@ -38,12 +38,13 @@
   justify-content: start;
   border-bottom: 2px solid white;
   height: 100px;
-  width: 900px;
+  width: 1000px;
 }
 
 .coin-row img {
   height: 35px;
   width: 35px;
+  margin-left: 60px;
 }
 
 .coin-row h1 {
@@ -88,19 +89,20 @@
   align-items: center;
   justify-content: start;
   border-bottom: 2px solid white;
-  width: 900px;
+  width: 1000px;
 }
 
 .info {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  margin-left: 33%;
+  margin-left: 29%;
   text-align: right;
 }
 
 .market-name {
   font-size: 20px;
+  margin-left: 60px;
 }
 
 .market-price {
