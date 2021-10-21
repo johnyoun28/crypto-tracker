@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Today's Cryptocurrency Prices by Market Cap</h1>
+      <h1 className='main-header'>Today's Cryptocurrency Prices by Market Cap</h1>
       <form>
           <input
           className='form-input'

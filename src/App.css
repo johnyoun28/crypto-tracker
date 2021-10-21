@@ -120,3 +120,68 @@
 .market-cap {
   font-size: 20px;
 }
+
+@media (max-width: 800px) {
+  .coin-row {
+    width: 600px;
+  }
+  .info-row {
+    width: 600px;
+  }
+
+  .main-header {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .coin-symbol {
+    text-align: start;
+  }
+
+  .coin-price {
+    width: 40px;
+    margin-right: 7%;
+  }
+
+  .coin-percent {
+    margin-right: 5%;
+  }
+
+  .coin-volume {
+    width: 50px;
+    margin-right: 17%;
+  }
+
+  .coin-cap {
+    width: 100px;
+  }
+
+  .coin-row img {
+    margin-left: 10px;
+  }
+
+  .market-price {
+    font-size: 15px;
+  }
+
+  .market-percent {
+    font-size: 15px;
+  }
+
+  .market-vol {
+    font-size: 15px;
+  }
+
+  .market-cap {
+    font-size: 15px;
+  }
+
+  .market-name {
+    font-size: 15px;
+    margin-left: 65px;
+  }
+  .info {
+    margin-left: 22%;
+  }
+}

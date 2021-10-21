@@ -15,8 +15,8 @@ const Coin = ({coin}) => {
 
             {
                 coin.price_change_percentage_24h.toFixed(2) < 0 ?
-                <p style={{color: 'red'}}>{coin.price_change_percentage_24h.toFixed(2)}%</p> :
-                 <p style={{color: '#32CD32'}}>+{coin.price_change_percentage_24h.toFixed(2)}%</p>
+                <p className='coin-percent' style={{color: 'red'}}>{coin.price_change_percentage_24h.toFixed(2)}%</p> :
+                 <p className='coin-percent' style={{color: '#32CD32'}}>+{coin.price_change_percentage_24h.toFixed(2)}%</p>
             }
 
             <p className='coin-volume'>${coin.total_volume.toLocaleString()}</p>
