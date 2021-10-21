@@ -121,6 +121,15 @@
   font-size: 20px;
 }
 
+@media (max-width: 1050px) {
+  .coin-row {
+    width: 800px;
+  }
+  .info-row {
+    width: 800px;
+  }
+}
+
 @media (max-width: 800px) {
   .coin-row {
     width: 600px;
@@ -183,5 +192,17 @@
   }
   .info {
     margin-left: 22%;
+  }
+}
+
+@media (max-width: 650px) {
+  .coin-row {
+    width: 550px;
+  }
+  .info-row {
+    width: 550px;
+  }
+  .info {
+    margin-left: 15%;
   }
 }
